@@ -1,0 +1,1 @@
+In Objective-C, a subtle error can occur when dealing with `NSDecimalNumber` and comparing its values using `isEqualToNumber:`.  The issue arises when comparing `NSDecimalNumber` objects created from different string representations of the same numerical value. For example, comparing `[NSDecimalNumber decimalNumberWithString:@
